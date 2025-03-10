@@ -470,11 +470,11 @@ ul.nptabbs{display:none}
 /*==========================================*/
 /* back to top css*/
 /*==========================================*/
-.scrollToTopBtn{border:none;border-radius:50%;color:#fff;cursor:pointer;font-size:30px!important;line-height:48px;width:48px;position:fixed;bottom:65px;right:15px;z-index:100;opacity:0;transform:translateY(100px);transition:all .5s ease;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+.scrollToTopBtn{border:none;border-radius:50%;color:#fff;cursor:pointer;font-size:30px!important;line-height:48px;width:48px;position:fixed;bottom:120px;right:10px;z-index:100;opacity:0;transform:translateY(100px);transition:all .5s ease;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 .showBtn{opacity:1;transform:translateY(0)}
 .scrollToTopBtn img{padding:10px;margin-right:12px;background-color:#173b63;border-radius:50px}
 @media screen and (max-width:600px){
-.scrollToTopBtn{width:42px;bottom:70px}
+.scrollToTopBtn{width: 42px;bottom: 115px;right: 9px;}
 }
 
 /*==========================================*/
@@ -527,4 +527,15 @@ ul.nptabbs{display:none}
 @media (max-width:575.98px){
 .footer{margin-bottom:52px}
 .footerLink ul li:nth-child(2) a:after{content:none;display:none}
+}
+
+/*==========================================*/
+/* Whatsapp css*/
+/*==========================================*/
+.whatsapp-img-section{position:fixed;z-index:8;bottom:0}
+.whatsapp-open-button-img{padding:10px 12px;cursor:pointer;position:fixed;bottom:62px;right:-5px!important;width:auto!important}
+.whatsapp-img{width:250px;height:55px}
+@media (max-width:600px){
+.whatsapp-open-button-img{right:-101px;width:250px}
+.whatsapp-img{width:220px;height:49px}
 }
